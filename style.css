@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
@@ -51,3 +53,49 @@ h1 {
     color:#faebd7;
 }
 
+h2 {
+    font-size: 33px;
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color:#B22222
+}
+
+tr {
+    font-size: 15px;
+    text-align: center;
+}
+
+th {
+    padding: 20px 60px 10px;
+    height: 20px;
+    font-size: 15px;
+    text-shadow: 1px 1px 2px black; 
+    color: rgb(196, 0, 0);
+    width: 30%;
+    background-color: #ffba5f;
+}
+
+table {
+    width: 80%;
+    margin: 50px auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 20px 60px 10px; 
+    background-color: rgb(255, 231, 222);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+}
+
+.dishes {
+    width: 75%;
+}
+
+.price {
+    width: 20%;
+    min-width: 150px;
+}
